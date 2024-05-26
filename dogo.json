@@ -1,8 +1,0 @@
-{
-    "WorkingDir": ".",
-    "SourceDir": ["."],
-    "SourceExt": [".c", ".cpp", ".go", ".h"],
-    "BuildCmd": "go build -o bin/decent-orderbook ./cmd/main.go",
-    "RunCmd": "./bin/decent-orderbook",
-    "Decreasing": 1
-}
