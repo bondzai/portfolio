@@ -1,0 +1,8 @@
+[submodule "portfolio-backend"]
+	path = portfolio-backend
+	url = https://github.com/bondzai/portfolio-backend.git
+	branch = master
+[submodule "portfolio-frontend"]
+	path = portfolio-frontend
+	url = https://github.com/bondzai/portfolio-frontend.git
+	branch = master
