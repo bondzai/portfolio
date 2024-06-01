@@ -5,7 +5,7 @@ BACK := ./backend
 -include $(FRONT)/Makefile.*
 -include $(BACK)/Makefile.*
 
-.PHONY: init front-init back-init front-run
+.PHONY: init front-init back-init front-run update-submodule
 
 init: front-init back-init
 
@@ -20,3 +20,7 @@ back-init:
 front-run:
 	@echo "  >  Running tests...\n"
 	cd $(FRONT) && yarn dev
+
+update-submodule:
+	@echo "  >  Updating submodule...\n"
+	@git submodule update --remote
